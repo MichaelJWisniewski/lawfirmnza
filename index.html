@@ -5,65 +5,28 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <style>
-        .headerborder {
-            border-top: 2px solid #000;
-            border-bottom: 2px solid #000;
-        }
-
-        .footerborder {
-            border-top: 2px solid #000;
-        }
-
-        .darkred {
-            background-color: #800000;
-        }
-
-        li {
-            list-style-type: none;
-        }
-
-        .main-bod-txt {
-          width: 672px;
-          margin-left: 20px;
-          margin-top: -20px;
-        }
-
-        .img-container{
-          width: 330px;
-        }
-
-        .txt-para{
-          padding-left: 15px;
-        }
-
-        .img-2{
-          margin-left: -30px;
-        }
-
-        .img-4{
-          margin-left: -30px;
-        }
+    
 
     
     </style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/main.css">
   </head>
-  <body>
-            <div class="container">
-                <div class="row">
-                    <img class="mt-4 mb-4" src="./static/img/logo3.jpg" alt="NZALAW"><a href=".."></a>
+  <body style="background-image: url('./static/img/nza_background.jpg');">
+    <div class="container" style="background-color: white;" >
+                <div class="row ml-4 mr-4">
+                    <img class="mt-4 mb-4" src="./static/img/logo3.jpg" alt="NZALAW"><a href="./home.html"></a>
                 </div>
-                <div class="row justify-content-center headerborder" >
+                <div class="row ml-4 mr-4 justify-content-center headerborder" >
                     <div class="col-md-1dot3 ">
-                        <a class="navbar-brand mt-2 h2 text-dark" href="#">WHO WE ARE</a>
+                        <a class="navbar-brand mt-2 h2 text-dark" href="./index.html">WHO WE ARE</a>
                     </div>
                     <div class="col-md-1dot3">
                         <p class="text-muted mt-3 mr-4">|</p>
                     </div>
                     <div class="col-md-1dot3" >
-                            <a class="navbar-brand mt-2 h2 text-dark" href="#">WHAT WE DO</a>
+                            <a class="navbar-brand mt-2 h2 text-dark" href="./what-we-do.html">WHAT WE DO</a>
                     </div>
                     <div class="col-md-1dot3">
                         <p class="text-muted mt-3 mr-4">|</p>
@@ -84,7 +47,7 @@
                             <a class="navbar-brand mt-2 h2 text-dark" href="#">CONTACT US</a>
                     </div>
                 </div>
-                <div class="row mt-4 mb-4">
+                <div class="row ml-4 mr-4 mt-4 mb-4">
                     <div class="col-md-3-fluid">
                         <div class="card " style="width: 18rem;">
                             <div class="card-bod darkred text-white pl-3 pr-5 pt-3 pb-3">
@@ -107,9 +70,13 @@
                                     <a class="h5 text-white" href="#">History</a>
                                   </li>
                                 <img class="card-img-top mt-4" src="./static/img/content-navlink-where.jpg" alt="Card image cap">
-                                  <span><b>Where We Work</b></span>
+                                  
+                                <div class="lineheight1">
+                                  <span class="lineheight1"><b>Where We Work</b></span>
                                   <br />
-                                  <span>Find out more abou our work converage area.</span>
+                                  <span class="">Find out more about our work converage area.</span>
+                                </div>
+                                
                             </div>
                             
                           </div>
@@ -137,17 +104,14 @@
                             <img src="static/img/sub-01-history.jpg" alt="" style="width: 100%;">
                           </div>
                           <div class="col-md-6 img-container"></div>
-
                         </div>
-                        
                     </div>   
                   </div>
-                  
-                <div class="row justify-content-center footerborder position-sticky">
+                <div class="row ml-4 mr-4 justify-content-center footerborder position-sticky">
                     <span>
-                      <h5>HOME - WHO WE ARE - WHAT WE DO - WHERE WE ARE - CONTACT</h5></span>
+                      <h5><a class="navbar-brand text-dark text-muted" href="./home.html">HOME</a> - WHO WE ARE - WHAT WE DO - WHERE WE ARE - CONTACT</h5></span>
                 </div>
-                <div class="row justify-content-center mt-0 text-muted position-sticky">
+                <div class="row ml-4 mr-4 justify-content-center mt-0 text-muted position-sticky">
                     <span>@2009 Nielsen, Zehe & Antas, P.C. // Website Design by OneTen Creative</span>
                 </div>
 
